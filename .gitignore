@@ -1,36 +1,32 @@
-# Ignore build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Dd]ist/
-[Dd]istPublic/
-[Aa]ssert/
+# Prerequisites
+*.d
 
-# User-specific files
-.vs/
-.vscode/
-.idea/
-*.user
-*.userosscache
-*.suo
-*.userprefs
-*.sln.docstates
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Precompiled Headers
+*.gch
+*.pch
 
-# Windows Installer files
-Thumbs.db
-ehthumbs.db
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# JetBrains Rider files
-.idea/
+# Fortran module files
+*.mod
+*.smod
 
-# Ignore the VSCode workspace
-.vscode/
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Ignore NuGet packages
-*.nupkg
-*.snupkg
+# Executables
+*.exe
+*.out
+*.app
