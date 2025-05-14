@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{18a8ff63-8eb5-4b64-9b7b-283f5455677b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{dcaa6d06-1237-48f7-a73e-9f6adc170856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="head\material">
+      <UniqueIdentifier>{8883f20c-20be-47ad-ae3a-013557f287db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\material">
+      <UniqueIdentifier>{8f08a134-f86e-45a9-a79d-e758856cafaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Vec3.hpp">
+      <Filter>head</Filter>
+    </ClCompile>
+    <ClCompile Include="Interval.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HitTableList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Metal.cpp">
+      <Filter>src\material</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambertian.cpp">
+      <Filter>src\material</Filter>
+    </ClCompile>
+    <ClCompile Include="Dielectric.cpp">
+      <Filter>src\material</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.hpp">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit.hpp">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="HitTableList.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Interval.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Metal.h">
+      <Filter>head\material</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialBase.h">
+      <Filter>head\material</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.h">
+      <Filter>head\material</Filter>
+    </ClInclude>
+    <ClInclude Include="Dielectric.h">
+      <Filter>head\material</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
