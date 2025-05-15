@@ -1,6 +1,6 @@
 #pragma once
-#include "Hit.hpp"
-#include "Vec3.hpp"
+#include "../hit/Hit.hpp"
+#include "../utility/Vec3.hpp"
 
 class Sphere : public HitTable{
 public:

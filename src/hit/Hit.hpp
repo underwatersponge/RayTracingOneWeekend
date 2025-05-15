@@ -1,8 +1,8 @@
 #pragma once
 //#include "Vec3.hpp"
-#include "Ray.hpp"
-#include "Utility.hpp"
-#include "Interval.h"
+#include "../utility/Ray.hpp"
+#include "../utility/Utility.hpp"
+#include "../utility/Interval.h"
 
 class Material;
 

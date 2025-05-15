@@ -3,7 +3,7 @@
 
 class Ray {
 public:
-	Ray() {}
+	Ray(): tm(0.0) {}
 
 	Ray(const Point3& origion, const Vec3 dir) : Origion(origion), Dir(dir), tm(0) {}
 

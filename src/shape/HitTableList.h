@@ -1,6 +1,6 @@
 #pragma once
-#include "Hit.hpp"
-#include "Ray.hpp"
+#include "../hit/Hit.hpp"
+#include "../utility/Ray.hpp"
 #include <vector>
 #include <memory>
 

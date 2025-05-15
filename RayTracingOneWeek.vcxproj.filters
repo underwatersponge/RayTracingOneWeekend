@@ -15,68 +15,66 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Vec3.hpp">
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utility\Vec3.hpp">
       <Filter>head</Filter>
     </ClCompile>
-    <ClCompile Include="Interval.cpp">
+    <ClCompile Include="src\utility\Interval.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Color.cpp">
+    <ClCompile Include="src\utility\Color.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="HitTableList.cpp">
+    <ClCompile Include="src\shape\HitTableList.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Metal.cpp">
+    <ClCompile Include="src\mat\Metal.cpp">
       <Filter>src\material</Filter>
     </ClCompile>
-    <ClCompile Include="Lambertian.cpp">
+    <ClCompile Include="src\mat\Lambertian.cpp">
       <Filter>src\material</Filter>
     </ClCompile>
-    <ClCompile Include="Dielectric.cpp">
+    <ClCompile Include="src\mat\Dielectric.cpp">
       <Filter>src\material</Filter>
     </ClCompile>
+    <ClCompile Include="src\cam\Camera.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Color.h">
+    <ClInclude Include="src\utility\Color.h">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="Ray.hpp">
+    <ClInclude Include="src\utility\Ray.hpp">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="Sphere.h">
+    <ClInclude Include="src\hit\Hit.hpp">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="Hit.hpp">
+    <ClInclude Include="src\shape\HitTableList.h">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="HitTableList.h">
+    <ClInclude Include="src\utility\Utility.hpp">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="Utility.hpp">
+    <ClInclude Include="src\utility\Interval.h">
       <Filter>head</Filter>
     </ClInclude>
-    <ClInclude Include="Interval.h">
-      <Filter>head</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>head</Filter>
-    </ClInclude>
-    <ClInclude Include="Metal.h">
+    <ClInclude Include="src\mat\Metal.h">
       <Filter>head\material</Filter>
     </ClInclude>
-    <ClInclude Include="MaterialBase.h">
+    <ClInclude Include="src\mat\MaterialBase.h">
       <Filter>head\material</Filter>
     </ClInclude>
-    <ClInclude Include="Lambertian.h">
+    <ClInclude Include="src\mat\Lambertian.h">
       <Filter>head\material</Filter>
     </ClInclude>
-    <ClInclude Include="Dielectric.h">
+    <ClInclude Include="src\mat\Dielectric.h">
       <Filter>head\material</Filter>
     </ClInclude>
+    <ClInclude Include="src\shape\Sphere.h" />
+    <ClInclude Include="src\cam\Camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="image.ppm" />
   </ItemGroup>
 </Project>

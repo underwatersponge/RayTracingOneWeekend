@@ -127,29 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Color.cpp" />
-    <ClCompile Include="Dielectric.cpp" />
-    <ClCompile Include="HitTableList.cpp" />
-    <ClCompile Include="Interval.cpp" />
-    <ClCompile Include="Lambertian.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Metal.cpp" />
-    <ClCompile Include="Vec3.hpp" />
+    <ClCompile Include="src\cam\Camera.cpp" />
+    <ClCompile Include="src\utility\Color.cpp" />
+    <ClCompile Include="src\mat\Dielectric.cpp" />
+    <ClCompile Include="src\shape\HitTableList.cpp" />
+    <ClCompile Include="src\utility\Interval.cpp" />
+    <ClCompile Include="src\mat\Lambertian.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mat\Metal.cpp" />
+    <ClCompile Include="src\utility\Vec3.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Color.h" />
-    <ClInclude Include="Dielectric.h" />
-    <ClInclude Include="Hit.hpp" />
-    <ClInclude Include="HitTableList.h" />
-    <ClInclude Include="Interval.h" />
-    <ClInclude Include="Lambertian.h" />
-    <ClInclude Include="MaterialBase.h" />
-    <ClInclude Include="Metal.h" />
-    <ClInclude Include="Ray.hpp" />
-    <ClInclude Include="Sphere.h" />
-    <ClInclude Include="Utility.hpp" />
+    <ClInclude Include="src\cam\Camera.h" />
+    <ClInclude Include="src\shape\Sphere.h" />
+    <ClInclude Include="src\utility\Color.h" />
+    <ClInclude Include="src\mat\Dielectric.h" />
+    <ClInclude Include="src\hit\Hit.hpp" />
+    <ClInclude Include="src\shape\HitTableList.h" />
+    <ClInclude Include="src\utility\Interval.h" />
+    <ClInclude Include="src\mat\Lambertian.h" />
+    <ClInclude Include="src\mat\MaterialBase.h" />
+    <ClInclude Include="src\mat\Metal.h" />
+    <ClInclude Include="src\utility\Ray.hpp" />
+    <ClInclude Include="src\utility\Utility.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="image.ppm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,5 @@
 #include "Camera.h"
-#include "MaterialBase.h"
+#include "../mat/MaterialBase.h"
 
 Color Camera::rayColor(const Ray& ray, int depth, const HitTableList& scene) const
 {

@@ -1,11 +1,10 @@
 #pragma once
-#include "Vec3.hpp"
-#include "Color.h"
-#include "Ray.hpp"
-#include "HitTableList.h"
+#include "../utility/Vec3.hpp"
+#include "../utility/Color.h"
+#include"../shape/HitTableList.h"
+#include "../utility/Interval.h"
 #include <fstream>
 #include <filesystem>
-#include "Interval.h"
 
 class Camera {
 

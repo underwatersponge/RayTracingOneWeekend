@@ -1,4 +1,5 @@
 #pragma once
+
 #include "MaterialBase.h"
 
 class Dielectric : public Material {

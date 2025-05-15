@@ -1,10 +1,10 @@
 
-#include "Sphere.h"
-#include "HitTableList.h"
-#include "Camera.h"
-#include "Lambertian.h"
-#include "Metal.h"
-#include "Dielectric.h"
+#include "shape/Sphere.h"
+#include "shape/HitTableList.h"
+#include "cam/Camera.h"
+#include "mat/Lambertian.h"
+#include "mat/Metal.h"
+#include "mat/Dielectric.h"
 #include <filesystem>
 
 //#define under
@@ -92,8 +92,8 @@ int main() {
     Camera camera;
 
     camera.aspectRatio = 16.0 / 9.0;
-    camera.imageWidth = 400;
-    camera.samplesPerPixel = 30;
+    camera.imageWidth = 200;
+    camera.samplesPerPixel = 20;
     camera.maxDepth = 20;
 
     camera.fov = 20;
