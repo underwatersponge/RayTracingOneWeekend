@@ -4,7 +4,7 @@ configurations {"Debug", "Release"}
 
 startproject "RayTracingOneweek"
 
-outputdir = "%{cfg.buidcfg}-%{cfg.system}-%{cfg.architecure}"
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 project "RayTracingOneWeek"
     location "RayTracingOneWeek"
