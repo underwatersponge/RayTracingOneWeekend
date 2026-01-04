@@ -1,8 +1,7 @@
 workspace "RayTracingOneWeek"
-architecture "x64"
-configurations {"Debug", "Release"}
-
-startproject "RayTracingOneweek"
+    architecture "x64"
+    configurations {"Debug", "Release"}
+    startproject "RayTracingOneweek"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
